@@ -34,22 +34,5 @@ arc-project/**
 
 
 **.nc
-**.dta
-
 **/Manifest.toml
-
-rawdata/sonris-download/frac-volumes/**
-rawdata/fracfocus/*.csv
-rawdata/fracfocus/readme.txt
-rawdata/nrel/**
-
 !**/README.md
-!sonrisdata/dictionary/**
-!rawdata/*_sample.zip
-!rawdata/shale_area.zip
-!rawdata/12072017_HV_OGIP.zip
-Rplots.pdf
-
-texfiles/**
-
-load-eia-api-key.R

@@ -2,8 +2,6 @@
 
 cls
 
-global dir .
-
 * All wells in Federal Waters - Both Pacific and GoM
 use "$dir/data/Wellbore Cost Data.dta", clear
     label list region_lbl

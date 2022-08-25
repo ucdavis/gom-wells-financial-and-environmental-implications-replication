@@ -8,10 +8,11 @@ library(xtable)
 
 
 DROP_CALIFORNIA <- TRUE # FALSE
+DIR <- "E:/projects/gom-wells-financial-and-environmental-implications-replication/"
 
 # ingest
-wells      <- read_dta("data/clean/Wellbore Cost Data.dta")
-well_costs <- read_dta("data/clean/Detailed Cost Data Combined.dta")
+wells      <- read_dta(paste0(DIR, "data/Wellbore Cost Data.dta"))
+well_costs <- read_dta(paste0(DIR, "data/Detailed Cost Data Combined.dta"))
 
 # change "labelled" to "factor"
 for (n in c("risk_category", "region_id", "well_category", "CurrentStatus")) {

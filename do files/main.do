@@ -3,7 +3,9 @@ clear all
 // global dir "/Users/gregupton/Documents/GitHub/offshore-wells-plug-and-abandon"
 // global dir "/Users/gregupton/Dropbox/CES RA Shared Folder/offshore-wells-plug-and-abandon"
 // global dir "F:\Dropbox\WellPAv4_Sid"
-global dir .
+global dir "E:\projects\gom-wells-financial-and-environmental-implications-replication\"
+global RScript "C:\Users\mjagerton\Documents\R\R-4.1.2\bin\x64\RScript.exe"
+
 cd $dir
 
 // ---------------------------------------------------
@@ -32,5 +34,5 @@ do "$dir/do files/Compile Cost Model Outputs.do"
 
 *do "$dir/do files/Summary_Tables.do"   
 
-shell "C:\Users\mjagerton\Documents\R\R-4.1.2\bin\x64\RScript.exe" "$dir\R\03a-make-tables.R"
+shell "$RScript" "$dir\R\make-tables.R"
 

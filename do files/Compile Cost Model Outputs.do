@@ -3,8 +3,8 @@
 
     *Detailed - Well Level Cost Estimates
     use "$dir/data/Fed Deep Costs - Detailed.dta", clear
-        append using "$dir/data/intermediate/Fed Shallow Costs - Detailed.dta"
-        append using "$dir/data/intermediate/State Waters Costs - Detailed.dta"
+        append using "$dir/data/Fed Shallow Costs - Detailed.dta"
+        append using "$dir/data/State Waters Costs - Detailed.dta"
         
         label var PA_cost_estimate "Estimated Cost to P&A"
         label var totalMD "Total Measured Depth of all boreholes (i.e. sidetracks) in well"

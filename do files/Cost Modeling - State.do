@@ -4,8 +4,6 @@
 // ssc install geonear
 cls
 
-global dir .
-
 use "$dir/data/Wellbore Cost Data.dta", clear
 
 	label list currentstatus_lbl
