@@ -1,0 +1,1 @@
+R packages tracked with [`renv`](https://rstudio.github.io/renv/). When on a new machine, create a new [`RStudio project`](https://support.rstudio.com/hc/en-us/articles/200526207-Using-RStudio-Projects) associated with the repo/base project directory. Then open up RStudio and run `renv::restore()` to install everything.
